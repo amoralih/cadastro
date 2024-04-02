@@ -9,12 +9,6 @@ body {
     background-color: bisque;    
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: large;
-}
-
 form {
     background-color: azure;
     padding: 20px;
@@ -36,10 +30,15 @@ input {
 }
 
 input [type="submit"] {
-    background-color: chartreuse;
+    background-color: royalblue;
     color: #fff;
     border: none;
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+button {
+    background-color: royalblue;
+    margin: 50%;
 }
