@@ -6,39 +6,52 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: bisque;    
+    background-color: lightyellow;    
 }
 
 form {
-    background-color: azure;
+    background-color: lightpink;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0. 0.1) ;
 }
 
-label {
-    display: block;
-    margin-top: 5px;
+.container{
+    max-width: 400px;
+    margin: 50 px auto;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0. 0.1);
+    padding: 20px;
+}    
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-input {
-    width: 100%;
-    padding: 8px;
+.form-group {
     margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: calc(100% - 12px);
+    padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
-input [type="submit"] {
-    background-color: royalblue;
-    color: #fff;
-    border: none;
+.form-group button {
+    width: 100%;
     padding: 10px;
-    border-radius: 4px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 3px;
     cursor: pointer;
-}
-
-button {
-    background-color: royalblue;
-    margin: 50%;
 }
